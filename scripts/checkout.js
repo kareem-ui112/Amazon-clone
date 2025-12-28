@@ -2,7 +2,6 @@ import { renderOrderSummary } from "./checkout/orderSummary.js";
 import {renderPaymentSummary} from "./checkout/paymentSummary.js";
 import { loadProducts, loadProductsFetch } from '../data/products.js';
 import { loadCart } from "../data/cart.js";
-// import '../data/cart-class.js'
 
 
 async function loadPage() {
@@ -20,6 +19,10 @@ async function loadPage() {
   
 }
 loadPage()
+
+
+// Learned already && async await is better
+
 
 /*
 Promise.all([
